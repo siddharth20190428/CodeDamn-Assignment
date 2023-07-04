@@ -1,0 +1,40 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+.small-dot {
+    @apply inline-block w-1 h-1 bg-zink5 rounded-full;
+}
+.large-dot {
+    @apply inline-block w-2 h-2 bg-zink5 rounded-full;
+}
+
+.personal-form-label {
+    @apply block text-lg font-semibold leading-6 text-gray-900;
+}
+.personal-form-input {
+    @apply block w-full rounded-lg border-0 my-2 p-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 !important;
+}
+
+.form-btn-cont {
+    @apply flex items-center justify-end gap-x-6;
+}
+.cancel-btn {
+    @apply rounded-md bg-zink1 px-5 py-3 text-sm font-semibold text-gray-900 shadow-sm hover:opacity-95 hover:shadow-lg !important;
+}
+.confirm-btn {
+    @apply disabled:opacity-75 disabled:cursor-not-allowed rounded-md bg-primary6 px-5 py-3 text-sm font-medium text-white shadow-sm hover:opacity-95 hover:shadow-lg !important;
+}
+
+.avatars-cont {
+    @apply inline-flex relative items-center;
+}
+.avatars-cont .av1 {
+    @apply inline-block h-8 w-8 rounded-full ring-2 ring-white;
+}
+.avatars-cont .av2 {
+    @apply inline-block h-8 w-8 rounded-full ring-2 ring-white -ml-2;
+}

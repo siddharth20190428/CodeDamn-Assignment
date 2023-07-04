@@ -1,0 +1,120 @@
+/* portfolio */
+.stats-section .heading {
+    @apply text-2xl font-bold;
+}
+.stats-section .stats-cont {
+    @apply my-4 flex justify-between flex-wrap;
+}
+
+.stats-section .stats-cont .stat-card {
+    @apply w-[49%] my-2 flex items-center border-2 border-zink1 bg-zink05 rounded-lg;
+}
+.stats-section .stats-cont .stat-card .icon {
+    @apply mx-4 w-12;
+}
+.stats-section .stats-cont .stat-card .desc {
+    @apply my-2;
+}
+.stats-section .stats-cont .stat-card .desc .value {
+    @apply text-xl font-bold text-zink9;
+}
+.stats-section .stats-cont .stat-card .desc .label {
+    @apply text-zink5;
+}
+
+.portfolio-section .heading {
+    @apply mb-4 flex justify-between items-center;
+}
+.portfolio-section .heading .title {
+    @apply text-2xl font-black;
+}
+.portfolio-section .heading .edit {
+    @apply font-semibold text-primary6 cursor-pointer;
+}
+.portfolio-section .cards-cont {
+    @apply flex flex-wrap justify-between;
+}
+
+.portfolio-section .cards-cont .proj-card {
+    @apply my-4 p-4 w-[48%] relative justify-between items-start bg-zink1 rounded-lg border-2 space-y-5;
+}
+.portfolio-section .cards-cont .proj-card .img-cont {
+    @apply relative;
+}
+.portfolio-section .cards-cont .proj-card .img-cont .img {
+    @apply object-fill w-full;
+}
+.portfolio-section .cards-cont .proj-card .badges-cont {
+    @apply space-x-3 absolute bottom-3 left-3;
+}
+.portfolio-section .cards-cont .proj-card .badges-cont .badge {
+    @apply px-4 py-1 rounded-lg bg-secondary2 font-bold tracking-wider text-secondary9;
+}
+.portfolio-section .cards-cont .proj-card .details {
+    @apply space-y-3;
+}
+.portfolio-section .cards-cont .proj-card .details .title {
+    @apply text-lg font-bold tracking-wider flex items-center justify-between;
+}
+.portfolio-section .cards-cont .proj-card .details .techs {
+    @apply flex space-x-2 items-center text-zink5;
+}
+.portfolio-section .cards-cont .proj-card .details .techs .icon {
+    @apply w-8;
+}
+
+.portfolio-section .cards-cont .proj-card .details .contribs {
+    @apply ml-6 text-sm w-3/4 text-zink5;
+}
+
+.portfolio-section .cards-cont .active {
+    @apply border-4 border-primary5 !important;
+}
+
+.portfolio-section .cards-cont .circle {
+    @apply inline-block w-6 h-6 rounded-full bg-white cursor-pointer border-2 border-zink4;
+}
+.portfolio-section .cards-cont .circle.check {
+    @apply border-8 border-primary5;
+}
+
+.portfolio-section .cards-cont .play-card {
+    @apply my-4 p-4 w-[47%] flex relative justify-between items-start bg-zink1 rounded-lg border-2;
+}
+.portfolio-section .cards-cont .play-card .img {
+    @apply w-12 h-12 m-2;
+}
+.portfolio-section .cards-cont .play-card .details {
+    @apply space-y-2;
+}
+.portfolio-section .cards-cont .play-card .details .heading {
+    @apply text-lg font-bold tracking-wider;
+}
+.portfolio-section .cards-cont .play-card .details .tech {
+    @apply flex space-x-2 items-center text-zink5;
+}
+.portfolio-section .cards-cont .play-card .details .shared {
+    @apply flex justify-between items-center;
+}
+.portfolio-section .cards-cont .play-card .details .shared .text {
+    @apply ml-4 text-sm text-zink5;
+}
+
+.portfolio-section .cards-cont .cert-card {
+    @apply my-4 p-4 w-[47%] flex flex-col relative justify-between items-start bg-zink1 rounded-lg border-2;
+}
+.portfolio-section .cards-cont .cert-card .icon-box {
+    @apply w-full flex justify-between items-center;
+}
+.portfolio-section .cards-cont .cert-card .icon {
+    @apply w-12 h-12 m-2;
+}
+.portfolio-section .cards-cont .cert-card .title {
+    @apply my-2 font-semibold tracking-wider;
+}
+.portfolio-section .cards-cont .cert-card .date {
+    @apply text-sm font-normal text-zink5;
+}
+.portfolio-section .cards-cont .cert-card .creds {
+    @apply my-2 text-sm font-semibold text-zink5;
+}

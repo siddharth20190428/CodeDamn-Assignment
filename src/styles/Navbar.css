@@ -1,0 +1,64 @@
+/* Navbar */
+.cd-nav {
+    @apply px-6 flex justify-between gap-8 w-full shadow-sm;
+}
+
+.cd-nav .logo-cont {
+    @apply flex items-center;
+}
+.cd-nav .logo-cont .cd-logo {
+    @apply text-3xl font-semibold;
+}
+
+.cd-nav .right-cont {
+    @apply flex items-center justify-evenly gap-8  px-6 py-4;
+}
+
+.cd-nav .right-cont .search-cont {
+    @apply w-80 relative flex items-center;
+}
+.cd-nav .right-cont .search-cont .magnifying-icon {
+    @apply absolute left-0 ml-3 h-5 w-5 text-gray-400;
+}
+.cd-nav .right-cont .search-cont .dropdown {
+    @apply mx-1 px-2 py-1 absolute right-0 flex items-center bg-zink1 text-zink5 rounded-lg;
+}
+.cd-nav .right-cont .search-cont .search {
+    @apply block w-full bg-white border border-gray-300 rounded-md py-2 pl-10 pr-3 text-sm placeholder-gray-500 focus:outline-none focus:text-gray-900 focus:placeholder-gray-400 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm;
+}
+
+.cd-nav .right-cont .streak-cont {
+    @apply flex w-12 justify-evenly items-center;
+}
+.cd-nav .right-cont .streak-cont .icon {
+    @apply h-6 w-6 text-primary5;
+}
+.cd-nav .right-cont .streak-cont .value {
+    @apply text-xl font-semibold text-gray-400;
+}
+
+.cd-nav .right-cont .notification-cont {
+    @apply flex relative cursor-pointer bg-white rounded-full p-1 text-gray-400 hover:text-gray-500;
+}
+.cd-nav .right-cont .notification-cont .icon {
+    @apply h-8 w-8;
+}
+.cd-nav .right-cont .notification-cont .value {
+    @apply absolute top-0 right-0 flex justify-center items-center h-4 w-4 rounded-full ring-2 ring-white bg-accent text-white text-xs;
+}
+
+.cd-nav .right-cont .profile-cont {
+    @apply flex justify-center relative;
+}
+.cd-nav .right-cont .profile-cont .image {
+    @apply w-10 border-2 rounded-full;
+}
+.cd-nav .right-cont .profile-cont .badge-cont {
+    @apply w-full absolute left-6 bottom-4 text-white;
+}
+.cd-nav .right-cont .profile-cont .badge-cont .value {
+    @apply absolute top-[0.1875rem] left-2 text-sm z-20 font-normal;
+}
+.cd-nav .right-cont .profile-cont .badge-cont .badge {
+    @apply w-6 h-6 absolute top-0 z-10;
+}

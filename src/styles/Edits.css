@@ -1,0 +1,60 @@
+.edit {
+    @apply m-6 flex justify-evenly;
+}
+.edits-cont {
+    @apply w-3/5 space-y-4 flex flex-col;
+}
+
+.edits-cont .profile-cont {
+    @apply mt-2 flex items-center gap-x-5;
+}
+.edits-cont .profile-cont .img {
+    @apply w-28 h-28;
+}
+.edits-cont .profile-cont .upload {
+    @apply rounded-md bg-primary6 px-5 py-3 text-sm text-white shadow-sm ring-1 ring-inset ring-gray-300 hover:shadow-lg hover:opacity-95;
+}
+.edits-cont .profile-cont .cancel {
+    @apply rounded-md bg-zink1 px-5 py-3 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-50;
+}
+
+.edits-cont .sec-visibilities .heading {
+    @apply text-xl font-black leading-6  text-gray-900;
+}
+.edits-cont .sec-visibilities .sub-head {
+    @apply mt-1 text-sm leading-6 text-gray-600;
+}
+
+.edits-cont .sec-visibilities .sec {
+    @apply my-4 p-6 bg-zink1 rounded-md space-y-4;
+}
+
+.edits-cont .sec-visibilities .sec .sec-cont {
+    @apply flex items-center justify-between;
+}
+.edits-cont .sec-visibilities .sec .sec-cont .texts {
+    @apply flex-grow flex flex-col space-y-1;
+}
+.edits-cont .sec-visibilities .sec .sec-cont .texts .name {
+    @apply text-lg font-semibold text-gray-900;
+}
+.edits-cont .sec-visibilities .sec .sec-cont .texts .desc {
+    @apply text-sm text-gray-500;
+}
+
+.edits-cont .sec-visibilities .sec .sec-cont .checkbox {
+    @apply relative inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500;
+}
+
+.side-nav-cont {
+    @apply py-6 flex flex-col bg-gray-50 border-2 rounded-lg space-y-5;
+}
+
+.profile-cont .about .heading,
+.edits-cont .about .heading {
+    @apply text-center text-2xl font-bold;
+}
+.profile-cont .about .desc,
+.edits-cont .about .desc {
+    @apply p-8 mt-4 font-medium border-2 border-zink1 bg-zink05 rounded-xl;
+}

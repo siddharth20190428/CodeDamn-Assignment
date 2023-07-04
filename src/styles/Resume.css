@@ -1,0 +1,53 @@
+.resume-sec .title {
+    @apply text-center text-2xl font-bold;
+}
+.resume-sec .data-cont {
+    @apply my-4 flex flex-wrap gap-x-4;
+}
+.resume-sec .data-cont .card {
+    @apply flex w-full p-6 mt-4 border-2 border-zink1 bg-zink05 rounded-xl;
+}
+.resume-sec .data-cont .card .icon {
+    @apply w-12 h-12;
+}
+.resume-sec .data-cont .card .details {
+    @apply ml-4 flex-1;
+}
+.resume-sec .data-cont .card .details .name {
+    @apply text-xl font-semibold;
+}
+.resume-sec .data-cont .card .details .more {
+    @apply flex justify-between text-zink9;
+}
+.resume-sec .data-cont .card .details .more .left {
+    @apply flex items-center;
+}
+.resume-sec .data-cont .card .details .more .duration {
+    @apply font-semibold;
+}
+.resume-sec .data-cont .card .details .desc {
+    @apply text-zink5 mt-4;
+}
+.resume-sec .data-cont .card .details .resp-sec {
+    @apply mt-4;
+}
+.resume-sec .data-cont .card .details .resp-sec .heading {
+    @apply font-semibold my-2;
+}
+.resume-sec .data-cont .card .details .resp-sec .resp {
+    @apply flex items-center;
+}
+.resume-sec .data-cont .card .details .resp-sec .resp .diamond {
+    @apply inline-block rotate-45 mx-2 w-2 h-2 bg-primary5;
+}
+
+.data-cont {
+    @apply my-4 flex flex-wrap gap-x-4;
+}
+
+.skill-item {
+    @apply flex my-2 p-3 rounded-md bg-zink05 border-2 border-zink1 text-zink9 font-semibold;
+}
+.skill-item .icon {
+    @apply mr-2 w-6;
+}

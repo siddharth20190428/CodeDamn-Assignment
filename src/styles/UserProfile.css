@@ -1,0 +1,115 @@
+.cd-user-section {
+    @apply my-12 flex flex-col items-center h-screen;
+}
+.cd-user-section .user-cont {
+    @apply w-3/5 flex flex-col gap-10;
+}
+
+.user-cont .portfolio-resume-tab {
+    @apply flex w-full justify-start border-2 rounded-lg px-4 py-2 gap-2;
+}
+.user-cont .portfolio-resume-tab .btn {
+    @apply px-3 py-1.5 rounded-md bg-zink1 text-zink7;
+}
+.user-cont .portfolio-resume-tab .btn.active {
+    @apply bg-primary05 text-primary7 !important;
+}
+
+.user-cont .profile-cont {
+    @apply space-y-8 mb-8;
+}
+.user-cont .profile-card {
+    @apply border-2 h-full rounded-3xl;
+}
+.user-cont .profile-card .cover {
+    @apply relative;
+}
+.user-cont .profile-card .cover .link {
+    @apply absolute top-8 right-8 flex gap-2 p-2 rounded-lg border-2 bg-[#FFFFFF29] text-xs font-semibold text-white;
+}
+.user-cont .profile-card .cover .link .icon {
+    @apply w-4 h-4;
+}
+.user-cont .profile-card .cover .image {
+    @apply w-full;
+}
+
+.profile-card .details-cont {
+    @apply flex justify-between p-8;
+}
+
+.profile-card .details-cont .avatar-cont {
+    @apply w-1/4 flex justify-center relative;
+}
+.profile-card .details-cont .avatar-cont .img {
+    @apply w-full absolute -top-36 border-2 rounded-full;
+}
+
+.profile-card .details-cont .avatar-cont .badge-cont {
+    @apply w-1/4 absolute top-1 right-1 text-white;
+}
+.profile-card .details-cont .avatar-cont .badge-cont .value {
+    @apply absolute left-5 top-5 text-xl z-20 font-bold;
+}
+.profile-card .details-cont .avatar-cont .badge-cont .icon {
+    @apply absolute top-2 z-10;
+}
+
+.profile-card .details-cont .desc {
+    @apply flex flex-col gap-y-2 w-2/3;
+}
+.profile-card .details-cont .desc .heading {
+    @apply flex items-center gap-4;
+}
+.profile-card .details-cont .desc .heading .name {
+    @apply text-3xl font-bold;
+}
+.profile-card .details-cont .desc .heading .pro {
+    @apply bg-success1 font-semibold text-xs px-4 py-1.5 rounded-md;
+}
+.profile-card .details-cont .desc .heading .seek {
+    @apply bg-secondary1 text-secondary8 font-semibold text-xs px-4 py-1.5 rounded-md;
+}
+
+.profile-card .details-cont .desc .sub-head .profession {
+    @apply text-zink5 mb-2;
+}
+.profile-card .details-cont .desc .sub-head .location {
+    @apply flex text-zink4 items-center gap-1;
+}
+.profile-card .details-cont .desc .sub-head .location .icon {
+    @apply w-6 h-6;
+}
+
+.profile-card .details-cont .desc .skill-cont {
+    @apply flex flex-wrap my-2 gap-2;
+}
+.profile-card .details-cont .desc .skill-cont .value {
+    @apply text-zink9 bg-zink1 py-2 px-4 text-xs font-semibold rounded-lg;
+}
+.profile-card .details-cont .desc .line {
+    @apply w-full border-b-2 my-4;
+}
+.profile-card .details-cont .desc .action-btn-cont {
+    @apply flex justify-between;
+}
+.profile-card .details-cont .desc .action-btn-cont .socials-cont {
+    @apply flex gap-2;
+}
+.profile-card .details-cont .desc .action-btn-cont .socials-cont .btn {
+    @apply p-1.5 border-2 rounded-lg;
+}
+.profile-card .details-cont .desc .action-btn-cont .socials-cont .btn .icon {
+    @apply w-6 h-6;
+}
+.profile-card .details-cont .desc .action-btn-cont .side-btns {
+    @apply flex items-center gap-4;
+}
+.profile-card .details-cont .desc .action-btn-cont .side-btns .bookmark {
+    @apply w-10 h-10 border-2 bg-zink1 p-2 rounded-lg cursor-pointer text-sm font-semibold;
+}
+.profile-card .details-cont .desc .action-btn-cont .side-btns .edit-profile {
+    @apply bg-primary6 text-white py-2 px-4 rounded-lg;
+}
+
+/* profile card ends */
